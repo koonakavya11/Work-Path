@@ -1,0 +1,113 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>register form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri;  
+  background-color:pink;  
+}  
+.container {  
+    padding: 60px;  
+  background-color: lightblue;  
+}  
+  
+.details{
+    width: 30%;
+    height: 20px;
+    padding: 7px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1; 
+}
+.gender{
+    padding :7px;
+    margin:5px 0 22px 0;
+}
+#CA{
+    border:none;
+  width: 50%;
+  height: 100px;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=email]:focus {  
+  background-color: #d3d3d3; 
+}  
+ /* div {  
+            padding: 10px 0;  
+      }   */
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 20%;  
+  opacity: 0.9;  
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}
+</style>  
+</head>  
+<body><form action="thankyou.html" method="POST"> 
+<form>  
+  <div class="container">  
+  <center>  <h1> Registration Form</h1> </center>  
+  <hr> 
+  <label><b>First Name:</b></label>   <br>
+<input type="text" class="details" name="firstname" placeholder= "First Name" required /> <br>
+<label><b>Last Name:</b></label>  <br>
+<input type="text" class="details" name="lastname" placeholder="Last Name" required />   
+<div>   
+<div class="gender">  
+<label><b>Gender:</b></label>  <br>  
+<input type="radio" value="Male" name="gender"> Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+</div>  
+<label><b>Phone:</b></label><br>
+<input type="text"  name="country code" placeholder="Country Code"  value="+91" size="1">   
+<input type="tel" id="phone" name="phone" placeholder="mobile number"pattern="[0-9]{10}" required>
+        <small>Format: XXXXXXXXXX (e.g., 1234567890)</small><br><br>
+<lable><b>Current Address:</b></label>  <br>
+<textarea cols="80" rows="5" id="CA" class="details" placeholder="enter full address" value="address" required>  
+</textarea>  <br>
+  <label for="email"><b>Job:</b></label>  <br>
+        <input type="checkbox" id="Jute Bags" name="subject" value="Mathematics">
+        <label for="Jute Bags">Jute Bags</label>
+        
+        <input type="checkbox" id="Candle Making" name="subject" value="Science">
+        <label for="Candle Making">Candle Making</label>
+        
+        <input type="checkbox" id="Packing" name="subject" value="History">
+        <label for="Packing">Packing</label>
+        
+        <input type="checkbox" id="Switching" name="subject" value="English">
+        <label for="Stitching">Stitching</label>
+
+        <input type="checkbox" id="Home Food" name="subject" value="Art">
+        <label for="Home Food">Home Foods</label>
+ <input type="checkbox" id="Cotton Wicks" name="subject" value="English">
+        <label for="Cotton Wicks">Cotton Wicks</label><br><br>
+
+ <label for="email"><b>Email:</b></label>  <br>
+ <input type="email" class="details" placeholder="Enter Email" name="email" required>  <br>
+    <label for="psw"><b>Password:</b></label>  <br>
+    <input type="password" class="details" placeholder="Enter Password" name="psw" required>   <br>
+    <center>
+    <button type="submit" class="registerbtn">Register</button>  
+  </center>
+  
+</form>  </form>
+</body>  
+</html>
