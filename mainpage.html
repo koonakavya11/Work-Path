@@ -1,0 +1,308 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*
+{
+box-sizing:border-box;
+}
+body
+{
+margin:0;
+}
+.header
+{
+background-color:#CC6600;
+padding:7px;
+font-size:40 px;
+}
+.topnav
+{
+overflow:hidden;
+background-color:aqua;
+}
+.topnav a
+{
+float:left;
+dislay:block;
+color:#f2f2f2;
+text-align:center;
+padding:5px 7px;
+text-decoration:none;
+}
+.topnav a:hover
+{
+background-color:purple;
+color:black;
+}
+.column
+{
+float:left;
+padding:8px;
+
+
+}
+.column.side
+{
+width:25%;
+background-color:silver;
+}
+.column.middle
+{
+width:50%;
+}
+.row:after
+{
+content:"";
+display:table;
+clear:both;
+}
+@media screen and(max-width:600px)
+{
+.column.side, .column.middle
+{
+Width: 90%;
+}
+}
+.footer
+{
+background-color:olive;
+padding:5px;
+text-align:center;
+}
+</style>
+<body background="slide1.jpeg">
+&emsp;
+<img src="customisedlogo.jpeg" alt="customised logo"  height="120" width="150" align="left" vspace="30.5"
+hspace="30">
+<img src="https://www.indiaspend.com/h-upload/old_images/1500x900_343576-karthikshetty1440.jpg"  height="120" width="120" align="right" vspace="30.5"
+hspace="30"> <link rel="stylesheet" type="text/css" href="styles.css"><header>
+<p align="justify">
+<h1><center><b>WORK PATH</b></center></h1>
+<dl><center><h2>EMPLOYMENT FOR SEMI LITERATES</h2><center></dl>
+</p></header>
+<style>
+.dropbtn {
+background-color: purple;
+color: white;
+padding: 20px;
+font-size: 19px;
+border: none;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+/* width: 100%; */
+}
+.dropdown-content {
+display: none;
+position: absolute;
+right: 0;
+background-color: white;
+/* min-width: 50px; */
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {background-color: aqua;}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown:hover .dropbtn {
+background-color: purple;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: purple;
+
+}
+</style>
+</head>
+<body>
+<div id="navbar">
+<div class="dropdown">
+<button class="dropbtn">Home</button>
+<div class="dropdown-content">
+<a href="home.html">Home</a>
+</div>
+</div>
+<div class="dropdown" >
+
+<button class="dropbtn">About Us</button>
+<div class="dropdown-content" style="left:0;">
+<a href="about.html">About Us</a>
+</div>
+</div>
+<!-- &emsp; -->
+<div class="dropdown">
+<button class="dropbtn">Registration</button>
+<div class="dropdown-content">
+<a href="registerform1.html">Register</a>
+
+</div>
+</div>
+<!-- &emsp; -->
+<div class="dropdown" >
+<button class="dropbtn">Jobs</button>
+<div class="dropdown-content">
+<a href="jutebags.html">Jute Bags</a>
+<a href="candlemaking.html">Candle Making</a>
+<a href="packing.html">Packing</a>
+<a href="stitching.html">Stitching</a>
+<a href="homefoods.html">Home Foods</a>
+<a href="cottonwicks.html">Cotton Wicks</a>
+
+</div>
+</div>
+<!-- &emsp; -->
+
+<div class="dropdown">
+<button class="dropbtn">Service Issues</button>
+<div class="dropdown-content">
+<a href="serviceissues.html">Service Issues</a>
+
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Terms and Conditions</button>
+<div class="dropdown-content">
+<a href="terms3.html">Terms & Conditions</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Privacy Policy</button>
+<div class="dropdown-content">
+<a href="workpathprivacy.html">Privacy Policy</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Frequently asked questions</button>
+<div class="dropdown-content">
+<a href="questions1.html">FAQs</a>
+</div>
+</div>
+</div>
+<br>
+<br>&emsp;&emsp;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: left;}
+.slideshow-container {
+max-width:700px;
+position: relative;
+left: 22%;
+}
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 5px;
+width: 100%;
+text-align: left;
+}
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+
+.active {
+background-color: #717171;
+}
+.fade {
+animation-name: fade;
+animation-duration: 4.5s;
+}
+@keyframes fade {
+from {opacity: .8}
+to {opacity: 1}
+}
+@media only screen and (max-width: 200px) {
+.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<div class="slideshow-container">
+<div class="mySlides fade">
+<img src="https://media.istockphoto.com/id/1152403476/photo/rural-women-sewing-clothes-using-machine.jpg?s=612x612&w=0&k=20&c=iP2PT5_Fsj7JmPm4zhXG4xFhruz9sczVgd_-IHT3DbI=" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="https://media.istockphoto.com/id/1424415229/photo/a-man-preparing-or-frying-popular-south-and-west-asia-sweet-in-a-pan.jpg?s=612x612&w=0&k=20&c=zq78dMnVmr0ysnAwXWWmBy-03Y-tBGPqWOyRhkVwZ8A=" style="width:100%" >
+</div>
+<div class="mySlides fade">
+<img src="https://media.istockphoto.com/id/944137720/photo/packages-with-supplies.jpg?s=612x612&w=0&k=20&c=Gc7E4-JjYwg8GqhXQ88tpDuoOplhI_2MIFmDxp-yxVE=" style="width:100%">
+</div>
+<div class="mySlides fade">
+<img src="https://media.istockphoto.com/id/1164886906/photo/white-cotton-diya-wicks.jpg?s=612x612&w=0&k=20&c=Kw-aeYOVX0i8Z_qVm_X3PDparCBgBtfY2S30atVE91c=" style="width:100%">
+</div>
+<div class="mySlides fade">
+<img src="https://cpimg.tistatic.com/08588935/b/4/Handicraft-Basket-Bag.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+<img src="https://media.istockphoto.com/id/1143216376/photo/making-a-diy-hemp-bag-top-view.jpg?s=612x612&w=0&k=20&c=LpA3j_Du1GQQ63dqyevsLQ_sLrQcfF_-0Cfl-caAUL0=" style="width:100%">
+</div>
+<div class="mySlides fade">
+<img src="https://media.istockphoto.com/id/689759216/photo/quality-control-of-candles-the-craft-product-from-beeswax.jpg?s=612x612&w=0&k=20&c=o8NW0sQad8kLDQoZIaEGEdfHtAxY2cnY2NdhomULK-g=" style="width:100%">
+</div>
+</div>
+<br>
+<div style="text-align:center">
+<br>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > slides.length) {slideIndex = 1}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+setTimeout(showSlides, 2000);
+}
+</script>
+</body>
+</body>
+</html>
